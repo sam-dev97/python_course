@@ -33,7 +33,6 @@ for data_parcela in data_parcelas:
     total_restante = total_restante - (emprestimo/total_parcelas)
     print(f'Parcela número: {meses}, Data: {data_parcela}, Valor da parcela: {emprestimo/total_parcelas:.2f}, Total ainda devido: R${total_restante:.2f}')
     meses += 1
-    
-    
 
 
+print("finalizando execução")
